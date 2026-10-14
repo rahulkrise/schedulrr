@@ -1,7 +1,12 @@
+import { Button } from "@/components/ui/button";
 import React from "react";
 
 const Home = () => {
-  return <main>Home</main>;
+  return (
+    <div>
+      <Button>Submit</Button>
+    </div>
+  );
 };
 
 export default Home;
